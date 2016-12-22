@@ -56,7 +56,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 50
                         }
                       ],
@@ -89,7 +89,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 265
                         }
                       ],
@@ -122,7 +122,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 480
                         }
                       ],
@@ -148,7 +148,6 @@
                     "_prototypeClass" : "896F7D0A-378C-4C4C-8C24-137163EAFA46"
                   }
                 ],
-                "editorHidden" : true,
                 "positionStorages" : {
                   "c_" : "JDMutableArrayDict",
                   "array" : [
@@ -190,7 +189,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 50
                         }
                       ],
@@ -223,7 +222,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 265
                         }
                       ],
@@ -256,7 +255,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 480
                         }
                       ],
@@ -324,7 +323,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 50
                         }
                       ],
@@ -357,7 +356,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 265
                         }
                       ],
@@ -390,7 +389,7 @@
                       "array" : [
                         {
                           "c_" : "IUPositionStorage",
-                          "top" : 30,
+                          "top" : 40,
                           "left" : 480
                         }
                       ],
@@ -416,6 +415,7 @@
                     "_prototypeClass" : "896F7D0A-378C-4C4C-8C24-137163EAFA46"
                   }
                 ],
+                "editorHidden" : true,
                 "positionStorages" : {
                   "c_" : "JDMutableArrayDict",
                   "array" : [
@@ -814,7 +814,13 @@
           "widthUnit" : 1,
           "heightUnit" : 0,
           "width" : 100,
-          "height" : 120
+          "height" : 150,
+          "bgColor1" : {
+            "c_" : "NSColor",
+            "G" : 0.4571427413395455,
+            "B" : 0.800000011920929,
+            "A" : 1
+          }
         }
       ],
       "keys" : [

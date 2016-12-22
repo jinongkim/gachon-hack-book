@@ -309,7 +309,13 @@
           "widthUnit" : 1,
           "heightUnit" : 0,
           "width" : 100,
-          "height" : 120
+          "height" : 150,
+          "bgColor1" : {
+            "c_" : "NSColor",
+            "G" : 0.4571427413395455,
+            "B" : 0.800000011920929,
+            "A" : 1
+          }
         }
       ],
       "keys" : [

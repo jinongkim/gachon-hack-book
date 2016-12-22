@@ -15,7 +15,7 @@
   width:100%;
 }
 .box-25 {
-  height:500px;
+  height:562px;
   left:61px;
   top:171px;
   width:803px;
@@ -1368,14 +1368,12 @@
   text-align:center;
   width:100px;
 }
-.cell-14 > a {
-  line-height:40px;
-}
 .cell-14 {
   color:#FFFFFF;
   font-family:'Arial', sans-serif;
   font-size:14px;
   height:40px;
+  line-height:40px;
   right:155px;
   text-align:center;
   width:100px;
@@ -1454,13 +1452,25 @@
   top:22px;
   width:169px;
 }
-.footer {
-  background-color:#0075CC;
-  height:150px;
-  left:0px;
-  position:relative;
-  top:0px;
-  width:100%;
+.pg-form-119 {
+  height:200px;
+  left:146px;
+  top:208px;
+  width:668px;
+}
+.text-120 {
+  height:34px;
+  left:24px;
+  top:24px;
+  width:98px;
+}
+.pg-text-field-121 {
+  height:30px;
+  left:137px;
+  padding-left:8px;
+  padding-right:8px;
+  top:25px;
+  width:200px;
 }
 @media screen and (max-width:959px) {
   .iu-page {

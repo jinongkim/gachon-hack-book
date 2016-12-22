@@ -1,6 +1,7 @@
 {
   "c_" : "IUProject",
   "viewPorts" : [
+    380,
     960
   ],
   "_pageGroup" : {
@@ -8,9 +9,9 @@
     "name" : "pages",
     "_children" : [
       {
-        "m_" : "C9524E35-3FD4-4B55-8105-2A6B805F8632",
         "c_" : "IUPage",
-        "file_" : "index-C9524E35-3FD4-4B55-8105-2A6B805F8632.json"
+        "file_" : "index-C9524E35-3FD4-4B55-8105-2A6B805F8632.json",
+        "m_" : "C9524E35-3FD4-4B55-8105-2A6B805F8632"
       },
       {
         "m_" : "DD98D887-4209-4F3C-B2E2-4599E2BC3C34",
@@ -31,6 +32,16 @@
         "m_" : "D84C383E-6D7A-403A-B3E8-4272B39165B2",
         "c_" : "IUPage",
         "file_" : "gong9-D84C383E-6D7A-403A-B3E8-4272B39165B2.json"
+      },
+      {
+        "m_" : "1B5EE4D0-9AB9-428F-AD52-0CE1BE29CEA0",
+        "c_" : "IUPage",
+        "file_" : "login-1B5EE4D0-9AB9-428F-AD52-0CE1BE29CEA0.json"
+      },
+      {
+        "m_" : "E4C599DF-06D5-4720-BF52-1811AF276AD8",
+        "c_" : "IUPage",
+        "file_" : "sing_in-E4C599DF-06D5-4720-BF52-1811AF276AD8.json"
       }
     ]
   },
