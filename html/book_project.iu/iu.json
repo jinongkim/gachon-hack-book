@@ -8,9 +8,29 @@
     "name" : "pages",
     "_children" : [
       {
+        "m_" : "C9524E35-3FD4-4B55-8105-2A6B805F8632",
         "c_" : "IUPage",
-        "file_" : "index-C9524E35-3FD4-4B55-8105-2A6B805F8632.json",
-        "m_" : "C9524E35-3FD4-4B55-8105-2A6B805F8632"
+        "file_" : "index-C9524E35-3FD4-4B55-8105-2A6B805F8632.json"
+      },
+      {
+        "m_" : "DD98D887-4209-4F3C-B2E2-4599E2BC3C34",
+        "c_" : "IUPage",
+        "file_" : "report_center-DD98D887-4209-4F3C-B2E2-4599E2BC3C34.json"
+      },
+      {
+        "m_" : "DDEAE60F-F8B1-4C72-8463-C7AEF752ADBA",
+        "c_" : "IUPage",
+        "file_" : "market-DDEAE60F-F8B1-4C72-8463-C7AEF752ADBA.json"
+      },
+      {
+        "m_" : "FE54372B-2CCB-4417-A959-BDE3326B8358",
+        "c_" : "IUPage",
+        "file_" : "hope_book-FE54372B-2CCB-4417-A959-BDE3326B8358.json"
+      },
+      {
+        "m_" : "D84C383E-6D7A-403A-B3E8-4272B39165B2",
+        "c_" : "IUPage",
+        "file_" : "gong9-D84C383E-6D7A-403A-B3E8-4272B39165B2.json"
       }
     ]
   },
@@ -34,9 +54,9 @@
         "m_" : "A3F04570-2058-4656-BB2C-4924E65B4443"
       },
       {
+        "m_" : "896F7D0A-378C-4C4C-8C24-137163EAFA46",
         "c_" : "IUClass",
-        "file_" : "composition-896F7D0A-378C-4C4C-8C24-137163EAFA46.json",
-        "m_" : "896F7D0A-378C-4C4C-8C24-137163EAFA46"
+        "file_" : "recommand_book-896F7D0A-378C-4C4C-8C24-137163EAFA46.json"
       }
     ]
   },

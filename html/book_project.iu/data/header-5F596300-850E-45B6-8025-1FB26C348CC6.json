@@ -185,6 +185,8 @@
         {
           "c_" : "IUFloatingImage",
           "htmlID" : "floating-image-16",
+          "clickType" : 1,
+          "linkBox" : "C9524E35-3FD4-4B55-8105-2A6B805F8632",
           "positionStorages" : {
             "c_" : "JDMutableArrayDict",
             "array" : [
@@ -273,6 +275,8 @@
     {
       "c_" : "IUFloatingImage",
       "htmlID" : "floating-image",
+      "clickType" : 1,
+      "linkBox" : "C9524E35-3FD4-4B55-8105-2A6B805F8632",
       "positionStorages" : {
         "c_" : "JDMutableArrayDict",
         "array" : [
@@ -638,7 +642,6 @@
                   }
                 }
               ],
-              "editorHidden" : true,
               "positionStorages" : {
                 "c_" : "JDMutableArrayDict",
                 "array" : [
@@ -6464,6 +6467,7 @@
                   }
                 }
               ],
+              "editorHidden" : true,
               "positionStorages" : {
                 "c_" : "JDMutableArrayDict",
                 "array" : [
@@ -6558,6 +6562,8 @@
         {
           "c_" : "IUText",
           "htmlID" : "text-21",
+          "clickType" : 1,
+          "linkBox" : "DDEAE60F-F8B1-4C72-8463-C7AEF752ADBA",
           "positionStorages" : {
             "c_" : "JDMutableArrayDict",
             "array" : [
@@ -6646,6 +6652,8 @@
         {
           "c_" : "IUText",
           "htmlID" : "text-22",
+          "clickType" : 1,
+          "linkBox" : "DD98D887-4209-4F3C-B2E2-4599E2BC3C34",
           "positionStorages" : {
             "c_" : "JDMutableArrayDict",
             "array" : [
@@ -6731,6 +6739,8 @@
         {
           "c_" : "IUText",
           "htmlID" : "text-23",
+          "clickType" : 1,
+          "linkBox" : "FE54372B-2CCB-4417-A959-BDE3326B8358",
           "positionStorages" : {
             "c_" : "JDMutableArrayDict",
             "array" : [
@@ -6819,6 +6829,8 @@
         {
           "c_" : "IUText",
           "htmlID" : "text-24",
+          "clickType" : 1,
+          "linkBox" : "D84C383E-6D7A-403A-B3E8-4272B39165B2",
           "positionStorages" : {
             "c_" : "JDMutableArrayDict",
             "array" : [
@@ -6959,7 +6971,7 @@
         "widthUnit" : 1,
         "heightUnit" : 0,
         "width" : 100,
-        "height" : 600,
+        "height" : 250,
         "borderType" : 0,
         "topBorderColor" : {
           "c_" : "NSColor",

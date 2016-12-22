@@ -34,12 +34,14 @@
   text-align:center;
   width:100px;
 }
+.cell-15 > a {
+  line-height:40px;
+}
 .cell-15 {
   color:#FFFFFF;
   font-family:'Arial', sans-serif;
   font-size:14px;
   height:40px;
-  line-height:40px;
   right:0px;
   text-align:center;
   width:100px;
@@ -1438,244 +1440,18 @@
 .section {
   height:720px;
 }
-.carousel > .iux-carousel-pager {
-  bottom:40px;
+.text-111 {
+  bottom:0px;
+  color:#B4B4B4;
+  font-family:'Helvetica', sans-serif;
+  font-size:36px;
+  height:50px;
+  left:0px;
+  margin-bottom:auto;
+  margin-top:auto;
   text-align:center;
-  visibility:visible;
-}
-.carousel > .iux-carousel-pager > li:hover,.carousel > .iux-carousel-pager > li.iux-active {
-  background-color:#0075CC;
-}
-.carousel {
-  border-color:#0075CC;
-  border-radius:5px;
-  border-width:2px;
-  height:357px;
-  left:0px;
-  margin-left:auto;
-  margin-right:auto;
-  right:0px;
-  top:98px;
-  width:700px;
-}
-.carousel> .iux-carousel-pager > li {
-  background-color:#D4EDFF;
-  border-radius:6px;
-  margin:6px;
-  padding:6px;
-}
-.carousel > .iux-carousel-prev,.carousel > .iux-carousel-next {
-  display:none;
-}
-.carousel-item {
-  height:100%;
-  position:relative;
-}
-.import {
-  height:253px;
-  left:50px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
   top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.import-123 {
-  height:253px;
-  left:265px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
-  top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.import-124 {
-  height:253px;
-  left:480px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
-  top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.carousel-item-112 {
-  height:100%;
-  position:relative;
-}
-.import-121 {
-  height:253px;
-  left:50px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
-  top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.import-122 {
-  height:253px;
-  left:265px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
-  top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.import-125 {
-  height:253px;
-  left:480px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
-  top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.carousel-item-113 {
-  height:100%;
-  position:relative;
-}
-.import-126 {
-  height:253px;
-  left:50px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
-  top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.import-127 {
-  height:253px;
-  left:265px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
-  top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.import-128 {
-  height:253px;
-  left:480px;
-  top:30px;
-  width:176px;
-}
-.image {
-  height:221px;
-  left:0px;
-  top:0px;
-  width:175px;
-}
-.cell-122 {
-  height:32px;
-  left:0px;
-  line-height:32px;
-  text-align:center;
-  top:220px;
-  width:175px;
-}
-.cell-125 {
-  background-color:#0075CC;
-  border-color:#0075CC;
-  border-radius:5px;
-  border-width:2px;
-  color:#FFFFFF;
-  font-family:'Hanna', serif;
-  font-size:24px;
-  height:40px;
-  left:0px;
-  line-height:40px;
-  margin-left:auto;
-  margin-right:auto;
-  right:0px;
-  text-align:left;
-  top:60px;
-  width:700px;
+  width:100%;
 }
 .footer {
   height:120px;

@@ -1,0 +1,128 @@
+{
+  "htmlID" : "recommand_book",
+  "name" : "recommand_book",
+  "children" : [
+    {
+      "c_" : "IUImage",
+      "htmlID" : "image",
+      "positionStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUPositionStorage",
+            "position" : 0,
+            "xUnit" : 0,
+            "yUnit" : 0,
+            "top" : 0,
+            "left" : 0
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      },
+      "styleStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUStyleStorage",
+            "widthUnit" : 0,
+            "heightUnit" : 0,
+            "width" : 175,
+            "height" : 221
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      }
+    },
+    {
+      "c_" : "IUCell",
+      "htmlID" : "cell-122",
+      "positionStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUPositionStorage",
+            "position" : 0,
+            "xUnit" : 0,
+            "yUnit" : 0,
+            "top" : 220,
+            "left" : 0
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      },
+      "styleStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUStyleStorage",
+            "widthUnit" : 0,
+            "heightUnit" : 0,
+            "width" : 175,
+            "height" : 32,
+            "fontAlign" : 1
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      },
+      "propertyStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUPropertyStorage",
+            "propertyStorage" : {
+              "IUPropertyTextKey" : "<p>&lt;책이름&gt;<\/p>"
+            }
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      }
+    }
+  ],
+  "positionStorages" : {
+    "c_" : "JDMutableArrayDict",
+    "array" : [
+      {
+        "c_" : "IUPositionStorage",
+        "position" : 0,
+        "xUnit" : 0,
+        "yUnit" : 0,
+        "top" : 0,
+        "left" : 0
+      }
+    ],
+    "keys" : [
+      960
+    ]
+  },
+  "styleStorages" : {
+    "c_" : "JDMutableArrayDict",
+    "array" : [
+      {
+        "c_" : "IUStyleStorage",
+        "widthUnit" : 0,
+        "heightUnit" : 0,
+        "width" : 176,
+        "height" : 253
+      }
+    ],
+    "keys" : [
+      960
+    ]
+  },
+  "eventVariable" : {
+
+  },
+  "ghostOpacity" : 0.5,
+  "m_" : "896F7D0A-378C-4C4C-8C24-137163EAFA46",
+  "c_" : "IUClass"
+}
