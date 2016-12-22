@@ -42,6 +42,11 @@
         "m_" : "E4C599DF-06D5-4720-BF52-1811AF276AD8",
         "c_" : "IUPage",
         "file_" : "sing_in-E4C599DF-06D5-4720-BF52-1811AF276AD8.json"
+      },
+      {
+        "c_" : "IUPage",
+        "file_" : "find_pw-A832D416-107D-4CA4-9F15-703C0A02224B.json",
+        "m_" : "A832D416-107D-4CA4-9F15-703C0A02224B"
       }
     ]
   },
@@ -68,15 +73,20 @@
         "m_" : "896F7D0A-378C-4C4C-8C24-137163EAFA46",
         "c_" : "IUClass",
         "file_" : "recommand_book-896F7D0A-378C-4C4C-8C24-137163EAFA46.json"
+      },
+      {
+        "m_" : "E57E44E7-D440-4853-84A8-6776877BD887",
+        "c_" : "IUClass",
+        "file_" : "new_book-E57E44E7-D440-4853-84A8-6776877BD887.json"
       }
     ]
   },
   "_projectType" : 1,
   "_projectData" : {
     "c_" : "IUProjectDjangoData",
-    "buildPath" : "$CurrentFolder\/$AppName_django\/templates",
+    "buildPath" : "$CurrentFolder\/templates",
     "resourcePrefix" : "\/static\/resource",
-    "resourceBuildPath" : "$CurrentFolder\/$AppName_django\/static\/resource"
+    "resourceBuildPath" : "$CurrentFolder\/static\/resource"
   },
   "_htmlData" : {
     "c_" : "IUProjectHTMLData",
