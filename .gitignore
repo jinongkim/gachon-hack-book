@@ -1,0 +1,10 @@
+*.log
+*.com
+*.sql
+*.sqlite
+__pycache__
+docs/_build/
+build/
+tests/report
+/tests/coverage_html
+/tests/.coverage
