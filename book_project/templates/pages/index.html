@@ -25,6 +25,7 @@
     <link rel="stylesheet" type="text/css" href="/static/resource/css/pages/index.css">
     <link rel="stylesheet" type="text/css" href="/static/resource/css/compositions/header.css">
     <link rel="stylesheet" type="text/css" href="/static/resource/css/compositions/recommand_book.css">
+    <link rel="stylesheet" type="text/css" href="/static/resource/css/compositions/new_book.css">
     <link rel="stylesheet" type="text/css" href="/static/resource/css/compositions/footer.css">
     <link href='https://fonts.googleapis.com/earlyaccess/hanna.css' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="//cdn.iueditor.org/js/iueditor-2.1.js" defer></script>
@@ -46,43 +47,46 @@
   <body>
     <div class="iu-page index">
       <header class="iu-header header">
-        {% include '../compositions/header.html' %}
+        {% include './compositions/header.html' %}
       </header>
       <section class="iu-page-content page-content">
         <section class="iu-section section">
+          <div class="iu-cell cell-125">
+            <p>&nbsp; &nbsp;<strong></strong>책 추천</p>
+          </div>
           <div class="iu-carousel carousel" data-iu-carousel-time="5000">
             <div class="iux-carousel-wrapper">
             <div class="iu-carousel-item carousel-item">
               <div class="iu-import import">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
               <div class="iu-import import-123">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
               <div class="iu-import import-124">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
             </div>
             <div class="iu-carousel-item carousel-item-112">
               <div class="iu-import import-121">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
               <div class="iu-import import-122">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
               <div class="iu-import import-125">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
             </div>
             <div class="iu-carousel-item carousel-item-113">
               <div class="iu-import import-126">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
               <div class="iu-import import-127">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
               <div class="iu-import import-128">
-                {% include '../compositions/recommand_book.html' %}
+                {% include './compositions/recommand_book.html' %}
               </div>
             </div>
             </div>
@@ -94,13 +98,45 @@
               <li></li>
             </ul>
           </div>
-          <div class="iu-cell cell-125">
-            <p>&nbsp; &nbsp;<strong></strong>책 추천</p>
+        </section>
+        <section class="iu-section section-130">
+          <div class="iu-cell cell-126">
+            <p>&nbsp; &nbsp; &nbsp; &nbsp; <strong></strong>&nbsp; &nbsp; &nbsp; &nbsp;  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;새로 들어온 책</p>
+          </div>
+          <div class="iu-import import-129">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-130">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-131">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-132">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-133">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-134">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-135">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-136">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-137">
+            {% include './compositions/new_book.html' %}
+          </div>
+          <div class="iu-import import-138">
+            {% include './compositions/new_book.html' %}
           </div>
         </section>
       </section>
       <footer class="iu-footer footer">
-        {% include '../compositions/footer.html' %}
+        {% include './compositions/footer.html' %}
       </footer>
     </div>
   </body>

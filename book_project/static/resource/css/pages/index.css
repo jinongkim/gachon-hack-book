@@ -18,7 +18,25 @@
   background-color:#FFFFFF;
 }
 .section {
-  height:1000px;
+  height:500px;
+}
+.cell-125 {
+  background-color:#0075CC;
+  border-color:#0075CC;
+  border-radius:5px;
+  border-width:2px;
+  color:#FFFFFF;
+  font-family:'Hanna', serif;
+  font-size:24px;
+  height:40px;
+  left:0px;
+  line-height:40px;
+  margin-left:auto;
+  margin-right:auto;
+  right:0px;
+  text-align:left;
+  top:60px;
+  width:700px;
 }
 .carousel > .iux-carousel-pager {
   bottom:40px;
@@ -115,27 +133,90 @@
   top:40px;
   width:176px;
 }
-.cell-125 {
+.section-130 {
+  height:750px;
+}
+.cell-126 {
   background-color:#0075CC;
-  border-color:#0075CC;
-  border-radius:5px;
-  border-width:2px;
   color:#FFFFFF;
   font-family:'Hanna', serif;
-  font-size:24px;
+  font-size:21px;
   height:40px;
   left:0px;
   line-height:40px;
-  margin-left:auto;
-  margin-right:auto;
-  right:0px;
   text-align:left;
   top:60px;
-  width:700px;
+  width:100%;
+}
+.import-129 {
+  float:none;
+  height:247px;
+  left:175px;
+  top:160px;
+  width:154px;
+}
+.import-130 {
+  height:247px;
+  left:405px;
+  top:160px;
+  width:154px;
+}
+.import-131 {
+  float:none;
+  height:247px;
+  left:640px;
+  top:160px;
+  width:154px;
+}
+.import-132 {
+  float:none;
+  height:247px;
+  left:875px;
+  top:160px;
+  width:154px;
+}
+.import-133 {
+  height:247px;
+  right:160px;
+  top:160px;
+  width:154px;
+}
+.import-134 {
+  float:none;
+  height:247px;
+  left:175px;
+  top:450px;
+  width:154px;
+}
+.import-135 {
+  height:247px;
+  left:405px;
+  top:450px;
+  width:154px;
+}
+.import-136 {
+  float:none;
+  height:247px;
+  left:640px;
+  top:450px;
+  width:154px;
+}
+.import-137 {
+  float:none;
+  height:247px;
+  left:875px;
+  top:450px;
+  width:154px;
+}
+.import-138 {
+  height:247px;
+  right:160px;
+  top:450px;
+  width:154px;
 }
 .footer {
   background-color:#0075CC;
-  height:150px;
+  height:100px;
   left:0px;
   position:relative;
   top:0px;
@@ -144,6 +225,12 @@
 @media screen and (max-width:959px) {
   .iu-page {
     min-width:380px;
+  }
+  .cell-125 {
+    left:0px;
+    margin-left:auto;
+    margin-right:auto;
+    right:0px;
   }
   .carousel {
     left:0px;
@@ -157,12 +244,6 @@
   }
   .carousel > .iux-carousel-prev,.carousel > .iux-carousel-next {
     display:none;
-  }
-  .cell-125 {
-    left:0px;
-    margin-left:auto;
-    margin-right:auto;
-    right:0px;
   }
 
 }
