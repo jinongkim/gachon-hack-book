@@ -1,0 +1,178 @@
+{
+  "htmlID" : "new_book",
+  "name" : "new_book",
+  "children" : [
+    {
+      "c_" : "IUImage",
+      "htmlID" : "image-158",
+      "positionStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUPositionStorage",
+            "position" : 0,
+            "xUnit" : 0,
+            "yUnit" : 0,
+            "top" : 1,
+            "left" : 0
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      },
+      "styleStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUStyleStorage",
+            "widthUnit" : 0,
+            "heightUnit" : 0,
+            "width" : 153,
+            "height" : 194
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      }
+    },
+    {
+      "c_" : "IUCell",
+      "htmlID" : "cell-168",
+      "positionStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUPositionStorage",
+            "position" : 0,
+            "xUnit" : 0,
+            "yUnit" : 0,
+            "top" : 194,
+            "left" : 0
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      },
+      "styleStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUStyleStorage",
+            "widthUnit" : 0,
+            "heightUnit" : 0,
+            "width" : 154,
+            "height" : 26,
+            "fontAlign" : 1
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      },
+      "propertyStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUPropertyStorage",
+            "propertyStorage" : {
+              "IUPropertyTextKey" : "<p>책이름<\/p>"
+            }
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      }
+    },
+    {
+      "c_" : "IUCell",
+      "htmlID" : "cell-169",
+      "positionStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUPositionStorage",
+            "position" : 0,
+            "xUnit" : 0,
+            "yUnit" : 0,
+            "top" : 220,
+            "left" : 0
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      },
+      "styleStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUStyleStorage",
+            "widthUnit" : 0,
+            "heightUnit" : 0,
+            "width" : 154,
+            "height" : 26,
+            "fontAlign" : 1
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      },
+      "propertyStorages" : {
+        "c_" : "JDMutableArrayDict",
+        "array" : [
+          {
+            "c_" : "IUPropertyStorage",
+            "propertyStorage" : {
+              "IUPropertyTextKey" : "<p>가격<\/p>"
+            }
+          }
+        ],
+        "keys" : [
+          960
+        ]
+      }
+    }
+  ],
+  "positionStorages" : {
+    "c_" : "JDMutableArrayDict",
+    "array" : [
+      {
+        "c_" : "IUPositionStorage",
+        "position" : 0,
+        "xUnit" : 0,
+        "yUnit" : 0,
+        "top" : 0,
+        "left" : 0
+      }
+    ],
+    "keys" : [
+      960
+    ]
+  },
+  "styleStorages" : {
+    "c_" : "JDMutableArrayDict",
+    "array" : [
+      {
+        "c_" : "IUStyleStorage",
+        "widthUnit" : 0,
+        "heightUnit" : 0,
+        "width" : 154,
+        "height" : 247
+      }
+    ],
+    "keys" : [
+      960
+    ]
+  },
+  "eventVariable" : {
+
+  },
+  "ghostOpacity" : 0.5,
+  "m_" : "E57E44E7-D440-4853-84A8-6776877BD887",
+  "c_" : "IUClass"
+}
