@@ -6566,6 +6566,7 @@
         {
           "c_" : "IUFloatingImage",
           "htmlID" : "floating-image-16",
+          "clickType" : 1,
           "positionStorages" : {
             "c_" : "JDMutableArrayDict",
             "array" : [
