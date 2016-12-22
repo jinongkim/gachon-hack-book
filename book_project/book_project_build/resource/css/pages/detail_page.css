@@ -1,3 +1,6 @@
+.iu-center-box {
+  width:960px;
+}
 .iu-page {
   min-width:960px;
 }
@@ -1439,23 +1442,16 @@
 .section {
   height:720px;
 }
-.text-111 {
-  background-color:#0075CC;
-  background-position:center;
-  border-color:#0075CC;
-  border-radius:15px;
-  border-width:3px;
-  color:#FFFFFF;
-  font-family:'Hanna', serif;
-  font-size:32px;
+.box-115 {
+  background-color:#DBDBDB;
+  border-radius:5px;
   height:50px;
   left:0px;
   margin-left:auto;
   margin-right:auto;
   right:0px;
-  text-align:center;
   top:56px;
-  width:650px;
+  width:950px;
 }
 .footer {
   background-color:#0075CC;
@@ -1466,6 +1462,9 @@
   width:100%;
 }
 @media screen and (max-width:959px) {
+  .iu-center-box {
+    width:380px;
+  }
   .iu-page {
     min-width:380px;
   }
@@ -1770,7 +1769,7 @@
   .cell-15 {
     right:0px;
   }
-  .text-111 {
+  .box-115 {
     left:0px;
     margin-left:auto;
     margin-right:auto;
