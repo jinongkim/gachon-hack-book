@@ -1442,14 +1442,21 @@
 .section {
   height:720px;
 }
-.box-115 {
+.center-box {
+  color:#000000;
+}
+.cell-115 {
   background-color:#DBDBDB;
   border-radius:5px;
+  color:#6D6D6D;
+  font-family:'Hanna', serif;
   height:50px;
   left:0px;
+  line-height:50px;
   margin-left:auto;
   margin-right:auto;
   right:0px;
+  text-align:left;
   top:56px;
   width:950px;
 }
@@ -1769,7 +1776,7 @@
   .cell-15 {
     right:0px;
   }
-  .box-115 {
+  .cell-115 {
     left:0px;
     margin-left:auto;
     margin-right:auto;
