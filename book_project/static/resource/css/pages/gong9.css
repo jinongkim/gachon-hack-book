@@ -1,0 +1,51 @@
+.iu-page {
+  min-width:960px;
+}
+.header {
+  border-bottom-width:4px;
+  border-color:#0075CC;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px;
+  color:#333333;
+  height:250px;
+  left:0px;
+  position:relative;
+  top:0px;
+  width:100%;
+}
+.page-content {
+  background-color:#FFFFFF;
+}
+.section {
+  height:720px;
+}
+.text-111 {
+  background-color:#0075CC;
+  background-position:center;
+  border-color:#0075CC;
+  border-radius:15px;
+  border-width:2px;
+  color:#FFFFFF;
+  font-family:'Hanna', serif;
+  font-size:32px;
+  height:50px;
+  left:190px;
+  text-align:left;
+  top:22px;
+  width:169px;
+}
+.footer {
+  background-color:#0075CC;
+  height:150px;
+  left:0px;
+  position:relative;
+  top:0px;
+  width:100%;
+}
+@media screen and (max-width:959px) {
+  .iu-page {
+    min-width:380px;
+  }
+
+}

@@ -1,0 +1,16 @@
+.image {
+  height:221px;
+  left:0px;
+  top:0px;
+  width:175px;
+}
+.cell-122 {
+  height:32px;
+  left:0px;
+  line-height:32px;
+  text-align:center;
+  top:220px;
+  width:175px;
+}
+@media screen and (max-width:959px) {
+}
