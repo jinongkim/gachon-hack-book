@@ -1,0 +1,77 @@
+{
+  "c_" : "IUProject",
+  "viewPorts" : [
+    960
+  ],
+  "_pageGroup" : {
+    "c_" : "IUSheetGroup",
+    "name" : "pages",
+    "_children" : [
+      {
+        "c_" : "IUPage",
+        "file_" : "index-C9524E35-3FD4-4B55-8105-2A6B805F8632.json",
+        "m_" : "C9524E35-3FD4-4B55-8105-2A6B805F8632"
+      }
+    ]
+  },
+  "_classGroup" : {
+    "c_" : "IUSheetGroup",
+    "name" : "compositions",
+    "_children" : [
+      {
+        "m_" : "5F596300-850E-45B6-8025-1FB26C348CC6",
+        "c_" : "IUClass",
+        "file_" : "header-5F596300-850E-45B6-8025-1FB26C348CC6.json"
+      },
+      {
+        "m_" : "43470D3A-DEAE-4848-BC6D-437BFD120CF0",
+        "c_" : "IUClass",
+        "file_" : "footer-43470D3A-DEAE-4848-BC6D-437BFD120CF0.json"
+      },
+      {
+        "c_" : "IUClass",
+        "file_" : "sidebar-A3F04570-2058-4656-BB2C-4924E65B4443.json",
+        "m_" : "A3F04570-2058-4656-BB2C-4924E65B4443"
+      },
+      {
+        "c_" : "IUClass",
+        "file_" : "composition-896F7D0A-378C-4C4C-8C24-137163EAFA46.json",
+        "m_" : "896F7D0A-378C-4C4C-8C24-137163EAFA46"
+      }
+    ]
+  },
+  "_projectType" : 1,
+  "_projectData" : {
+    "c_" : "IUProjectDjangoData",
+    "buildPath" : "$CurrentFolder\/$AppName_django\/templates",
+    "resourcePrefix" : "\/static\/resource",
+    "resourceBuildPath" : "$CurrentFolder\/$AppName_django\/static\/resource"
+  },
+  "_htmlData" : {
+    "c_" : "IUProjectHTMLData",
+    "buildPath" : "$CurrentFolder\/$AppName_build",
+    "resourcePrefix" : "\/resource",
+    "resourceBuildPath" : "$CurrentFolder\/$AppName_build\/resource",
+    "_port" : 23662
+  },
+  "_favoriteColors" : [
+    {
+      "c_" : "NSColor",
+      "R" : 0.3333333432674408,
+      "G" : 0.6745098233222961,
+      "B" : 0.9333333373069763,
+      "A" : 1
+    },
+    {
+      "c_" : "NSColor",
+      "R" : 0.2313725501298904,
+      "G" : 0.3490196168422699,
+      "B" : 0.5960784554481506,
+      "A" : 1
+    }
+  ],
+  "_documentPath" : "$CurrentFolder\/$AppName_document",
+  "_enableMinWidth" : true,
+  "defaultLayout" : 1,
+  "idPrefix" : ""
+}
