@@ -1,0 +1,77 @@
+.iu-page {
+  min-width:960px;
+}
+.login_1 {
+  height:0px;
+}
+.page-content {
+  background-color:#FFFFFF;
+  height:264px;
+}
+.section {
+  height:300px;
+}
+.pg-form-114 {
+  height:118px;
+  left:17px;
+  top:48px;
+  width:306px;
+}
+.pg-text-field-115 {
+  border-color:#0075CC;
+  border-radius:5px;
+  border-width:1px;
+  height:30px;
+  left:16px;
+  padding-left:8px;
+  padding-right:8px;
+  top:13px;
+  width:135px;
+}
+.pg-text-field-116 {
+  border-color:#0075CC;
+  border-radius:5px;
+  border-width:1px;
+  height:30px;
+  left:16px;
+  padding-left:8px;
+  padding-right:8px;
+  top:57px;
+  width:135px;
+}
+.pg-button-117 {
+  background-color:#D4EDFF;
+  color:#0075CC;
+  font-family:'Jeju Gothic', serif;
+  font-size:18px;
+  height:77px;
+  left:197px;
+  top:13px;
+  width:100px;
+}
+.pg-button-118 {
+  background-color:#0075CC;
+  color:#FFFFFF;
+  font-family:'Jeju Gothic', serif;
+  font-size:16px;
+  height:40px;
+  left:35px;
+  top:162px;
+  width:130px;
+}
+.pg-button-119 {
+  background-color:#FFFFFF;
+  color:#0075CC;
+  font-family:'Jeju Gothic', serif;
+  font-size:16px;
+  height:40px;
+  left:182px;
+  top:162px;
+  width:130px;
+}
+@media screen and (max-width:959px) {
+  .iu-page {
+    min-width:380px;
+  }
+
+}
