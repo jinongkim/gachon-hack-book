@@ -49,10 +49,10 @@
                 {
                   "c_" : "IUPositionStorage",
                   "position" : 0,
-                  "horizontalCenter" : false,
+                  "horizontalCenter" : true,
                   "xUnit" : 0,
                   "yUnit" : 0,
-                  "top" : 22,
+                  "top" : 56,
                   "left" : 190
                 }
               ],
@@ -67,7 +67,7 @@
                   "c_" : "IUStyleStorage",
                   "widthUnit" : 0,
                   "heightUnit" : 0,
-                  "width" : 169,
+                  "width" : 650,
                   "height" : 50,
                   "imageVPosition" : 1,
                   "bgColor1" : {
@@ -101,10 +101,10 @@
                     "B" : 0.800000011920929,
                     "A" : 1
                   },
-                  "topBorderWidth" : 2,
-                  "leftBorderWidth" : 2,
-                  "rightBorderWidth" : 2,
-                  "bottomBorderWidth" : 2,
+                  "topBorderWidth" : 3,
+                  "leftBorderWidth" : 3,
+                  "rightBorderWidth" : 3,
+                  "bottomBorderWidth" : 3,
                   "topLeftBorderRadius" : 15,
                   "topRightBorderRadius" : 15,
                   "bottomLeftborderRadius" : 15,
@@ -118,7 +118,7 @@
                     "B" : 1,
                     "A" : 1
                   },
-                  "fontAlign" : 0
+                  "fontAlign" : 1
                 }
               ],
               "keys" : [
@@ -131,7 +131,7 @@
                 {
                   "c_" : "IUPropertyStorage",
                   "propertyStorage" : {
-                    "IUPropertyTextKey" : "<p>&nbsp; &nbsp; 신고센터<\/p>"
+                    "IUPropertyTextKey" : "<p>신고 센터<\/p>"
                   }
                 }
               ],
