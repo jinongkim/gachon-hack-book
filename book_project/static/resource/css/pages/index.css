@@ -1,3 +1,6 @@
+.iu-center-box {
+  width:960px;
+}
 .iu-page {
   min-width:960px;
 }
@@ -148,70 +151,72 @@
   top:60px;
   width:100%;
 }
-.import-129 {
+.box-163 {
+  height:492px;
+  left:115px;
+  top:153px;
+  width:771px;
+}
+.import-164 {
   float:none;
   height:247px;
-  left:175px;
-  top:160px;
+  position:relative;
   width:154px;
 }
-.import-130 {
-  height:247px;
-  left:405px;
-  top:160px;
-  width:154px;
-}
-.import-131 {
+.import-166 {
   float:none;
   height:247px;
-  left:640px;
-  top:160px;
+  margin-left:153px;
+  position:relative;
   width:154px;
 }
-.import-132 {
+.import-167 {
   float:none;
   height:247px;
-  left:875px;
-  top:160px;
+  left:153px;
+  top:0px;
   width:154px;
 }
-.import-133 {
+.import-168 {
   height:247px;
-  right:160px;
-  top:160px;
+  left:306px;
+  top:0px;
   width:154px;
 }
-.import-134 {
-  float:none;
+.import-169 {
   height:247px;
-  left:175px;
-  top:450px;
+  left:459px;
+  top:0px;
   width:154px;
 }
-.import-135 {
+.import-170 {
   height:247px;
-  left:405px;
-  top:450px;
+  left:612px;
+  top:0px;
   width:154px;
 }
-.import-136 {
-  float:none;
+.import-171 {
   height:247px;
-  left:640px;
-  top:450px;
+  left:0px;
+  top:247px;
   width:154px;
 }
-.import-137 {
-  float:none;
+.import-172 {
   height:247px;
-  left:875px;
-  top:450px;
+  left:462px;
+  top:247px;
   width:154px;
 }
-.import-138 {
+.import-173 {
   height:247px;
-  right:160px;
-  top:450px;
+  left:308px;
+  top:247px;
+  width:154px;
+}
+.import-174 {
+  height:247px;
+  left:616px;
+  top:247px;
   width:154px;
 }
 .footer {
@@ -223,6 +228,9 @@
   width:100%;
 }
 @media screen and (max-width:959px) {
+  .iu-center-box {
+    width:380px;
+  }
   .iu-page {
     min-width:380px;
   }

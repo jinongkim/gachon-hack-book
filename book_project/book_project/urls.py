@@ -21,7 +21,7 @@ from hack_book import views
 
 urlpatterns = [
 #     url(r'^admin/', admin.site.urls),
-    url(r'^$', TemplateView.as_view(template_name='pages/index.html'), name='Index'),
+    url(r'^$', views.index, name='Index'),
     url(r'^login$', TemplateView.as_view(template_name='pages/login.html'), name='login'),
     # url(r'^user_check$', views.user_check, name='user_check'),
     # url(r'^login_user$', views.login_user, name='login_user'),

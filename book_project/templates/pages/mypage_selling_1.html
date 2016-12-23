@@ -50,7 +50,6 @@
           $(document).ready(function() {
               $('#search_book').click(function(){
                   var isbn = $("#isbn").val();
-                  alert(isbn);
                   $.ajax({
                       type:"GET",
                       dataType: "jsonp",
@@ -63,7 +62,6 @@
                           var pub_nm = item.pub_nm;
                           var pub_date = item.pub_date;
                           var list_price = item.list_price;
-                          alert(title+ img_url+ author+ pub_nm+ pub_date+ list_price);
                           $("img").attr("src",img_url);
                           $("#title").text(title);
                           $("#author").text(author);
@@ -83,7 +81,6 @@
               document.getElementById("content").appendChild(test1);
           };
           function delete_form(e){
-              alert("hello");
               e.parentNode.parentNode.parentNode.parentNode.removeChild(e.parentNode.parentNode.parentNode);
           };
       </script>
@@ -189,13 +186,10 @@
             <div class="iu-text text-138">
               <p>판매 책 추가하기<strong></strong></p>
             </div>
-              <div>
-                {% include '../pages/add_book.html' %}
-            </div>
-                  <div class="iu-text text-139">
+              <div class="iu-text text-139">
               <p>판매 목록<strong></strong></p>
-            </div>
-            <div class="iu-box box-159"></div>
+              </div>
+              <div class="iu-box box-159">{% include '../pages/add_book.html' %}</div>
           </div>
         </section>
       </section>
