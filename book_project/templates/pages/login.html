@@ -18,11 +18,12 @@
              .;,
  -->
 <HTML>
-  <head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="/static/resource/common/iu.css">
     <link rel="stylesheet" type="text/css" href="/static/resource/css/pages/login.css">
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
     <link href='https://fonts.googleapis.com/earlyaccess/jejugothic.css' rel='stylesheet' type='text/css'>
     <script type="text/javascript" src="//cdn.iueditor.org/js/iueditor-2.1.js" defer></script>
     <!--[if lt IE 9]>
@@ -39,21 +40,36 @@
         Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
       </noscript>
     <![endif]-->
-  </head>
-  <body>
-    <div class="iu-page login">
-      <section id="page-content" class="iu-page-content page-content">
+{#    <script>#}
+{#        $(document).ready(function() {#}
+{#            $('#submit').click(function(){#}
+{#                $.ajax({#}
+{#                    url:'user_check',#}
+{#                    data: {id: $("#user").val(), password: $("#password").val()},#}
+{#                    success:function(data){#}
+{#                        if(data==true){#}
+{#                            location.href = {% url 'login_user' %}#}
+{#                        }#}
+{#                    }#}
+{#                })#}
+{#            })#}
+{#        });#}
+{#    </script>#}
+</head>
+<body>
+<div class="iu-page login">
+    <section id="page-content" class="iu-page-content page-content">
         <section class="iu-section section">
-          <form class="iu-pg-form pg-form-114" enctype="multipart/form-data" method="post">
-            {% csrf_token %}
-            <input class="iu-pg-text-field pg-text-field-115" type="text" placeholder="ID를 입력하세요.">
-            <input class="iu-pg-text-field pg-text-field-116" type="password" placeholder="비밀번호를 입력하세요.">
-            <input class="iu-pg-button pg-button-117" type="button" value="로그인">
-          </form>
-          <input class="iu-pg-button pg-button-118" type="button" value="회원가입">
-          <input class="iu-pg-button pg-button-119" type="button" value="비밀번호 찾기">
+            <form class="iu-pg-form pg-form-114" enctype="multipart/form-data" method="post">
+                {% csrf_token %}
+                <input class="iu-pg-text-field pg-text-field-115" type="text" id="user" placeholder="ID를 입력하세요.">
+                <input class="iu-pg-text-field pg-text-field-116" type="password" id="password" placeholder="비밀번호를 입력하세요.">
+                <input class="iu-pg-button pg-button-117" id="submit" type="button" value="로그인">
+            </form>
+            <a href="{% url 'sign_in' %}" onClick="window.close()" target="_blank" ><input class="iu-pg-button pg-button-118" type="button" value="회원가입"></a>
+            <a href="{% url 'find_pw' %}" onClick="window.close()" target="_blank" ><input class="iu-pg-button pg-button-119" type="button" value="비밀번호 찾기"></a>
         </section>
-      </section>
-    </div>
-  </body>
+    </section>
+</div>
+</body>
 </HTML>
