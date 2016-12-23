@@ -284,6 +284,15 @@
   top:545px;
   width:650px;
 }
+.box-159 {
+  height:113px;
+  left:0px;
+  margin-left:auto;
+  margin-right:auto;
+  right:0px;
+  top:1089px;
+  width:950px;
+}
 .footer {
   background-color:#0075CC;
   height:100px;
@@ -324,6 +333,12 @@
     right:0px;
   }
   .text-139 {
+    left:0px;
+    margin-left:auto;
+    margin-right:auto;
+    right:0px;
+  }
+  .box-159 {
     left:0px;
     margin-left:auto;
     margin-right:auto;
