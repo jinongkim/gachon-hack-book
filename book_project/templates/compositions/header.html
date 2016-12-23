@@ -228,9 +228,9 @@
           <div class="iux-has-hover iu-cell cell-140">
             <p>토목환경공학과</p>
           </div>
-          <div class="iux-has-hover iu-cell cell-141">
+          <a href="{% url 'major' %}"><div class="iux-has-hover iu-cell cell-141">
             <p>산업경영공학과</p>
-          </div>
+          </div></a>
           <div class="iu-text text-150">
             <p>간호대학</p>
           </div>
@@ -269,7 +269,9 @@
     </a>
   </div>
   <div class="iu-cell cell-15">
-    <p>마이페이지</p>
+    <a class="iux-inner-link" href="/mypage_selling">
+        <p>마이페이지</p>
+    </a>
   </div>
   <div class="iu-cell cell-14">
     <a class="iux-inner-link" href="/sign_in">
@@ -282,8 +284,10 @@
 <form class="iu-pg-form pg-form" enctype="multipart/form-data" method="post">
   {% csrf_token %}
   <input class="iu-pg-text-field pg-text-field" type="text">
-  <select class="iu-pg-select pg-select">
-    <option value="Error">Nothing</option>
-  </select>
+    <select class="iu-pg-select pg-select">
+        <option value="all">통합검색</option>
+        <option value="author">저자</option>
+        <option value="pub">출판사</option>
+    </select>
   <input class="iu-pg-button pg-button" type="submit" value="검색">
 </form>
