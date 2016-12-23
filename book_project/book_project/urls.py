@@ -34,4 +34,6 @@ urlpatterns = [
     url(r'^gong9$', TemplateView.as_view(template_name='pages/gong9_1.html'), name='gong9'),
     url(r'^major$', TemplateView.as_view(template_name='pages/major_1.html'), name='major'),
     url(r'^detail_book$', TemplateView.as_view(template_name='pages/detail_book_1.html'), name='detail_book'),
+    url(r'^mypage_selling$', TemplateView.as_view(template_name='pages/mypage_selling_1.html'), name='mypage_selling'),
+    url(r'^mypage_edit$', TemplateView.as_view(template_name='pages/mypage_edit_1.html'), name='mypage_edit'),
 ]

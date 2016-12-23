@@ -46,9 +46,6 @@
   </head>
   <body>
     <div class="iu-page mypage_edit_1">
-      <header class="iu-header header">
-        {% include './compositions/header.html' %}
-      </header>
       <section class="iu-page-content page-content">
         <section class="iu-section section">
           <div class="iu-center-box center-box">
@@ -98,15 +95,12 @@
               </div>
               <input class="iu-pg-text-field pg-text-field-150" type="email">
               <input class="iu-pg-text-field pg-text-field-151" type="email">
-              <input class="iu-pg-button pg-button-142" type="button" value="취소">
-              <input class="iu-pg-button pg-button-143" type="button" value="저장">
+              <input class="iu-pg-button pg-button-142" type="button" onclick="window.close()" value="취소">
+              <input class="iu-pg-button pg-button-143" type="button" onclick="window.close()" value="저장">
             </form>
           </div>
         </section>
       </section>
-      <footer class="iu-footer footer">
-        {% include './compositions/footer.html' %}
-      </footer>
     </div>
   </body>
 </HTML>

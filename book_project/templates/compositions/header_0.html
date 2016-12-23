@@ -1,16 +1,18 @@
 <div class="iu-box box">
-  <div class="iu-cell cell">
-    <a class="iux-inner-link" href="/login#page-content" onClick="window.open(this.href, '', 'width=380, height=270'); return false;" target="_blank">
-      <p>로그인</p>
-    </a>
-  </div>
-  <div class="iu-cell cell-15">
-    <p>마이페이지</p>
-  </div>
-  <div class="iu-cell cell-14">
-    <a class="iux-inner-link" href="/sign_in">
-      <p>회원가입</p>
-    </a>
-  </div>
-  <a href="{% url 'Index' %}"><div class="iu-floating-image floating-image-16" ></div></a>
+    <div class="iu-cell cell">
+        <a class="iux-inner-link" href="/login#page-content" onClick="window.open(this.href, '', 'width=380, height=270'); return false;" target="_blank">
+            <p>로그인</p>
+        </a>
+    </div>
+    <div class="iu-cell cell-192">
+        <a class="iux-inner-link" href="{% url 'mypage_selling' %}">
+            <p>마이페이지</p>
+        </a>
+    </div>
+    <div class="iu-cell cell-14">
+        <a class="iux-inner-link" href="/sign_in">
+            <p>회원가입</p>
+        </a>
+    </div>
+    <a href="{% url 'Index' %}"><div class="iu-floating-image floating-image-16" ></div></a>
 </div>

@@ -1,0 +1,102 @@
+
+<div class="container">
+    <div class="container" id="content">
+        <div class="container" id="content_form">
+            <form>
+                <div class="form-group">
+                    <div class="col-xs-2">
+                        <label for="isbn">ISBN No:</label>
+                        <div class="input-group">
+                            <input type="text" class="form-control" id="isbn">
+                            <div class="input-group-btn">
+                                <button class="btn btn-default" type="button" id="search_book" data-toggle="modal" data-target="#book_info"><i class="glyphicon glyphicon-search"></i></button>
+                            </div>
+                        </div>
+                        <!-- Modal -->
+                        <div class="modal fade" id="book_info" role="dialog">
+                            <div class="modal-dialog">
+
+                                <!-- Modal content-->
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                        <h4 class="modal-title">도서 정보</h4>
+                                    </div>
+                                    <div class="modal-body">
+                                        <div class="col-xs-4">
+                                            <img src="" width='175' height='250' border='0'/>
+                                        </div>
+                                        <div class="col-xs-8">
+                                            <table class="table">
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row">책 제목</th>
+                                                    <td id ="title" > </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">저자</th>
+                                                    <td id ="author" > </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">출판사</th>
+                                                    <td id ="pubnm" > </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">출판일</th>
+                                                    <td id ="pubdate" > </td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">가격</th>
+                                                    <td id ="price" > </td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                        <div align="right">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-xs-2">
+                        <label for="class">강의명:</label>
+                        <input type="text" class="form-control" id="class">
+                    </div>
+                    <div class="col-xs-2">
+                        <label for="professor">교수명:</label>
+                        <input type="text" class="form-control" id="professor">
+                    </div>
+                    <div class="col-xs-2">
+                        <label for="book_condition"> 책 상태:</label>
+                        <select class="form-control" id="book_condition">
+                            <option>최상</option>
+                            <option>상</option>
+                            <option>중</option>
+                        </select>
+                    </div>
+                    <div class="col-xs-2">
+                        <label for="selling_price">가격:</label>
+                        <input type="text" class="form-control" id="selling_price">
+                    </div>
+                    <div class="col-xs-1">
+                        <label for="book_status" style="display: block">&nbsp;</label>
+                        <button type="button" class="btn btn-danger" onclick="delete_form(this)">삭제</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    <div class="container" style="text-align: right;">
+        <br>
+        <a href="#">
+            <span class="glyphicon glyphicon-plus-sign" style="font-size: 40px;" onclick="cloneTestSon()"></span>
+        </a>
+    </div>
+    <div  class="container" style="text-align: center;">
+        <button type="button" class="btn btn-default btn-lg">저 장 하 기</button>
+    </div>
+</div>

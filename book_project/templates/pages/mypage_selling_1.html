@@ -43,6 +43,50 @@
         Unfortunately your browser has disabled scripting. Please enable it in order to display this page.
       </noscript>
     <![endif]-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <script>
+          $(document).ready(function() {
+              $('#search_book').click(function(){
+                  var isbn = $("#isbn").val();
+                  alert(isbn);
+                  $.ajax({
+                      type:"GET",
+                      dataType: "jsonp",
+                      url:"https://apis.daum.net/search/book?apikey=b9a4526d202ec94bbbd10d7b7c9e2314&q="+isbn+"&searchType=isbn&output=json",
+                      success:function(json){
+                          var item = json.channel.item[0];
+                          var title = item.title;
+                          var img_url = item.cover_l_url;
+                          var author = item.etc_author;
+                          var pub_nm = item.pub_nm;
+                          var pub_date = item.pub_date;
+                          var list_price = item.list_price;
+                          alert(title+ img_url+ author+ pub_nm+ pub_date+ list_price);
+                          $("img").attr("src",img_url);
+                          $("#title").text(title);
+                          $("#author").text(author);
+                          $("#pubnm").text(pub_nm);
+                          $("#pubdate").text(pub_date);
+                          $("#price").text(list_price);
+                      }
+                  })
+              });
+          });
+      </script>
+      <script type="text/javascript">
+          function cloneTestSon(){
+              var test = document.getElementById('content_form');
+              var test1 = test.cloneNode(true);
+              //test1.getElementsByClassName('btn-danger').setAttribute("id", 1);
+              document.getElementById("content").appendChild(test1);
+          };
+          function delete_form(e){
+              alert("hello");
+              e.parentNode.parentNode.parentNode.parentNode.removeChild(e.parentNode.parentNode.parentNode);
+          };
+      </script>
   </head>
   <body>
     <div class="iu-page mypage_selling_1">
@@ -78,18 +122,18 @@
               </div>
               <input class="iu-pg-text-field pg-text-field-145" type="email">
               <input class="iu-pg-text-field pg-text-field-146" type="email">
-              <div class="iu-text text-147">
-                <p>핸드폰번호</p>
-              </div>
-              <div class="iu-text text-149">
-                <p>-</p>
-              </div>
-              <div class="iu-text text-151">
-                <p>-</p>
-              </div>
-              <input class="iu-pg-text-field pg-text-field-150" type="email">
-              <input class="iu-pg-text-field pg-text-field-151" type="email">
-              <input class="iu-pg-button pg-button-143" type="button" value="정보수정">
+                <div class="iu-text text-147">
+                    <p>핸드폰번호</p>
+                </div>
+                <div class="iu-text text-149">
+                    <p>-</p>
+                </div>
+                <div class="iu-text text-151">
+                    <p>-</p>
+                </div>
+                <input class="iu-pg-text-field pg-text-field-150" type="email">
+                <input class="iu-pg-text-field pg-text-field-151" type="email">
+                <a href="/mypage_edit" onClick="window.open(this.href, '', 'width=1100px, height=800px'); return false;" target="_blank"><input class="iu-pg-button pg-button-143" type="button" value="정보수정"></a>
             </form>
             <table class="iu-table table">
               <caption class="iu-table-caption table-caption"></caption>
@@ -145,7 +189,10 @@
             <div class="iu-text text-138">
               <p>판매 책 추가하기<strong></strong></p>
             </div>
-            <div class="iu-text text-139">
+              <div>
+                {% include '../pages/add_book.html' %}
+            </div>
+                  <div class="iu-text text-139">
               <p>판매 목록<strong></strong></p>
             </div>
           </div>
