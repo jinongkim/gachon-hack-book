@@ -1,0 +1,56 @@
+.box-188 {
+  background-color:#0075CC;
+  height:40px;
+  left:0px;
+  top:0px;
+  width:100%;
+}
+.cell-189 {
+  color:#FFFFFF;
+  font-family:'Arial', sans-serif;
+  font-size:14px;
+  height:40px;
+  right:80px;
+  text-align:center;
+  width:100px;
+}
+.cell-189 > a {
+  line-height:40px;
+}
+.cell-192 {
+  color:#FFFFFF;
+  font-family:'Arial', sans-serif;
+  font-size:14px;
+  height:40px;
+  line-height:40px;
+  right:0px;
+  text-align:center;
+  width:100px;
+}
+.cell-190 {
+  color:#FFFFFF;
+  font-family:'Arial', sans-serif;
+  font-size:14px;
+  height:40px;
+  right:155px;
+  text-align:center;
+  width:100px;
+}
+.cell-190 > a {
+  line-height:40px;
+}
+.floating-image-191 {
+  background-image:url('/static/resource/project/book_small_logo.png');
+  background-position:center center;
+  background-size:contain;
+  height:34px;
+  left:38px;
+  top:4px;
+  width:100px;
+}
+@media screen and (max-width:959px) {
+  .cell-192 {
+    right:0px;
+  }
+
+}
