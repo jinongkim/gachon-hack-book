@@ -53,8 +53,44 @@
         <section class="iu-section section">
           <div class="iu-center-box center-box">
             <div class="iu-text text-113">
-              <p>판매 목록<strong></strong></p>
+              <p>내 정보</p>
             </div>
+            <form class="iu-pg-form pg-form-132" enctype="multipart/form-data" method="post">
+              {% csrf_token %}
+              <div class="iu-text text-132">
+                <p>아이디</p>
+              </div>
+              <input class="iu-pg-text-field pg-text-field-143" type="text">
+              <input class="iu-pg-text-field pg-text-field-139" type="text">
+              <div class="iu-text text-163">
+                <p>이름</p>
+              </div>
+              <div class="iu-text text-141">
+                <p>학번</p>
+              </div>
+              <input class="iu-pg-text-field pg-text-field-141" type="text">
+              <input class="iu-pg-text-field pg-text-field-142" type="text">
+              <div class="iu-text text-143">
+                <p>학과</p>
+              </div>
+              <div class="iu-text text-144">
+                <p>학교 이메일</p>
+              </div>
+              <input class="iu-pg-text-field pg-text-field-145" type="email">
+              <input class="iu-pg-text-field pg-text-field-146" type="email">
+              <div class="iu-text text-147">
+                <p>핸드폰번호</p>
+              </div>
+              <div class="iu-text text-149">
+                <p>-</p>
+              </div>
+              <div class="iu-text text-151">
+                <p>-</p>
+              </div>
+              <input class="iu-pg-text-field pg-text-field-150" type="email">
+              <input class="iu-pg-text-field pg-text-field-151" type="email">
+              <input class="iu-pg-button pg-button-143" type="button" value="정보수정">
+            </form>
             <table class="iu-table table">
               <caption class="iu-table-caption table-caption"></caption>
               <thead>
@@ -108,6 +144,9 @@
             </table>
             <div class="iu-text text-138">
               <p>판매 책 추가하기<strong></strong></p>
+            </div>
+            <div class="iu-text text-139">
+              <p>판매 목록<strong></strong></p>
             </div>
           </div>
         </section>
