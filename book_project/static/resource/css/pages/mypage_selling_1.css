@@ -1,3 +1,6 @@
+.iu-center-box {
+  width:960px;
+}
 .iu-page {
   min-width:960px;
 }
@@ -18,7 +21,7 @@
   background-color:#FFFFFF;
 }
 .section {
-  height:720px;
+  height:1100px;
 }
 .text-113 {
   background-color:#0075CC;
@@ -57,6 +60,24 @@
   font-family:'Jeju Gothic', serif;
   font-size:13px;
 }
+.text-138 {
+  background-color:#0075CC;
+  background-position:center;
+  border-color:#0075CC;
+  border-radius:15px;
+  border-width:3px;
+  color:#FFFFFF;
+  font-family:'Hanna', serif;
+  font-size:32px;
+  height:50px;
+  left:0px;
+  margin-left:auto;
+  margin-right:auto;
+  right:0px;
+  text-align:center;
+  top:600px;
+  width:650px;
+}
 .footer {
   background-color:#0075CC;
   height:100px;
@@ -66,6 +87,9 @@
   width:100%;
 }
 @media screen and (max-width:959px) {
+  .iu-center-box {
+    width:380px;
+  }
   .iu-page {
     min-width:380px;
   }
@@ -76,6 +100,12 @@
     right:0px;
   }
   .table {
+    left:0px;
+    margin-left:auto;
+    margin-right:auto;
+    right:0px;
+  }
+  .text-138 {
     left:0px;
     margin-left:auto;
     margin-right:auto;
