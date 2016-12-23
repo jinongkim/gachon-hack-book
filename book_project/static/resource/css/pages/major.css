@@ -1,0 +1,201 @@
+.iu-center-box {
+  width:960px;
+}
+.iu-page {
+  min-width:960px;
+}
+.header {
+  border-bottom-width:4px;
+  border-color:#0075CC;
+  border-left-width:0px;
+  border-right-width:0px;
+  border-top-width:0px;
+  color:#333333;
+  height:250px;
+  left:0px;
+  position:relative;
+  top:0px;
+  width:100%;
+}
+.page-content {
+  background-color:#FFFFFF;
+}
+.section {
+  height:720px;
+}
+.cell-115 {
+  background-color:#DBDBDB;
+  border-radius:5px;
+  color:#6D6D6D;
+  font-family:'Hanna', serif;
+  height:50px;
+  left:0px;
+  line-height:50px;
+  margin-left:auto;
+  margin-right:auto;
+  right:0px;
+  text-align:left;
+  top:56px;
+  width:950px;
+}
+.box-115 {
+  border-bottom-width:1px;
+  border-color:#6D6D6D;
+  border-top-width:1px;
+  height:30px;
+  left:0px;
+  margin-left:auto;
+  margin-right:auto;
+  right:0px;
+  top:130px;
+  width:950px;
+}
+.cell-116 {
+  bottom:0px;
+  font-family:'Jeju Gothic', serif;
+  font-size:12px;
+  height:28px;
+  left:34px;
+  line-height:28px;
+  margin-bottom:auto;
+  margin-top:auto;
+  text-align:center;
+  top:0px;
+  width:61px;
+}
+.cell-117 {
+  bottom:0px;
+  font-family:'Jeju Gothic', serif;
+  font-size:12px;
+  height:28px;
+  left:94px;
+  line-height:28px;
+  margin-bottom:auto;
+  margin-top:auto;
+  text-align:center;
+  top:0px;
+  width:67px;
+}
+.cell-125 {
+  bottom:0px;
+  font-family:'Jeju Gothic', serif;
+  font-size:12px;
+  height:28px;
+  left:159px;
+  line-height:28px;
+  margin-bottom:auto;
+  margin-top:auto;
+  text-align:center;
+  top:0px;
+  width:71px;
+}
+.cell-126 {
+  bottom:0px;
+  font-family:'Jeju Gothic', serif;
+  font-size:12px;
+  height:28px;
+  left:229px;
+  line-height:28px;
+  margin-bottom:auto;
+  margin-top:auto;
+  text-align:center;
+  top:0px;
+  width:64px;
+}
+.cell-143 {
+  bottom:0px;
+  font-family:'Jeju Gothic', serif;
+  font-size:12px;
+  height:28px;
+  left:292px;
+  line-height:28px;
+  margin-bottom:auto;
+  margin-top:auto;
+  text-align:center;
+  top:0px;
+  width:90px;
+}
+.table {
+  height:60px;
+  left:0px;
+  margin-left:auto;
+  margin-right:auto;
+  right:0px;
+  text-align:center;
+  top:190px;
+  width:950px;
+}
+.table, .table > tbody > tr > td, .table > thead > tr > th {
+  border-color:#CCCCCC;
+  border-width:1px;
+}
+.table-header {
+  background-color:#EBEBEB;
+  font-family:'Jeju Gothic', serif;
+  font-size:13px;
+}
+.footer {
+  background-color:#0075CC;
+  height:100px;
+  left:0px;
+  position:relative;
+  top:0px;
+  width:100%;
+}
+@media screen and (max-width:959px) {
+  .iu-center-box {
+    width:380px;
+  }
+  .iu-page {
+    min-width:380px;
+  }
+  .cell-115 {
+    left:0px;
+    margin-left:auto;
+    margin-right:auto;
+    right:0px;
+  }
+  .box-115 {
+    left:0px;
+    margin-left:auto;
+    margin-right:auto;
+    right:0px;
+  }
+  .cell-116 {
+    bottom:0px;
+    margin-bottom:auto;
+    margin-top:auto;
+    top:0px;
+  }
+  .cell-117 {
+    bottom:0px;
+    margin-bottom:auto;
+    margin-top:auto;
+    top:0px;
+  }
+  .cell-125 {
+    bottom:0px;
+    margin-bottom:auto;
+    margin-top:auto;
+    top:0px;
+  }
+  .cell-126 {
+    bottom:0px;
+    margin-bottom:auto;
+    margin-top:auto;
+    top:0px;
+  }
+  .cell-143 {
+    bottom:0px;
+    margin-bottom:auto;
+    margin-top:auto;
+    top:0px;
+  }
+  .table {
+    left:0px;
+    margin-left:auto;
+    margin-right:auto;
+    right:0px;
+  }
+
+}
